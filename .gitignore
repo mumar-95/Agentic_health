@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local vector store (rebuilt from documents/)
+vector_db/
+
+# Hospital documents (keep only documents/README.md in git)
+documents/*
+!documents/README.md
